@@ -1,0 +1,13 @@
+pg-data/
+pg-server.log
+pg-launch.*.log
+web-launch.*.log
+__pycache__/
+*.pyc
+acceptance/
+deployment/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.tar.gz

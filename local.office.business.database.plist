@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>Label</key><string>local.office.business.database</string>
+  <key>ProgramArguments</key><array>
+    <string>/opt/homebrew/opt/postgresql@16/bin/postgres</string>
+    <string>-D</string><string>/Users/Agent 项目开发/office-business-data-acceptance/workflow/pg-data</string>
+    <string>-c</string><string>listen_addresses=</string>
+    <string>-k</string><string>/private/tmp/office-biz-workflow-pg</string>
+    <string>-p</string><string>55433</string>
+  </array>
+  <key>RunAtLoad</key><true/>
+  <key>KeepAlive</key><true/>
+  <key>EnvironmentVariables</key><dict><key>LC_ALL</key><string>C</string></dict>
+  <key>StandardOutPath</key><string>/Users/Agent 项目开发/office-business-data-acceptance/workflow/pg-launch.out.log</string>
+  <key>StandardErrorPath</key><string>/Users/Agent 项目开发/office-business-data-acceptance/workflow/pg-launch.err.log</string>
+</dict></plist>

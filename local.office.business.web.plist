@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>Label</key><string>local.office.business.web</string>
+  <key>ProgramArguments</key><array>
+    <string>/Users/Agent 项目开发/office-business-data-acceptance/.venv/bin/python</string>
+    <string>/Users/Agent 项目开发/office-business-data-acceptance/workflow/server.py</string>
+    <string>--port</string><string>18766</string>
+  </array>
+  <key>EnvironmentVariables</key><dict><key>OFFICE_DB_USER</key><string>office_demo_writer</string><key>PYTHONUNBUFFERED</key><string>1</string></dict>
+  <key>WorkingDirectory</key><string>/Users/Agent 项目开发/office-business-data-acceptance/workflow</string>
+  <key>RunAtLoad</key><true/>
+  <key>KeepAlive</key><true/>
+  <key>StandardOutPath</key><string>/Users/Agent 项目开发/office-business-data-acceptance/workflow/web-launch.out.log</string>
+  <key>StandardErrorPath</key><string>/Users/Agent 项目开发/office-business-data-acceptance/workflow/web-launch.err.log</string>
+</dict></plist>
